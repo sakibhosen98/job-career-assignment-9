@@ -1,0 +1,9 @@
+.primary-color{
+  color: rgb(110, 6, 207);
+}
+.primary-bg{
+  background-color:  rgb(110, 6, 207);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

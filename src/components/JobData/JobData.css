@@ -1,0 +1,24 @@
+.remote{
+  border: 2px solid rgb(110, 6, 207);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color:rgb(110, 6, 207);
+  ;
+}
+.img{
+  width: 70px;
+  height: 70px;
+}
+.button{
+  background-color:rgb(87, 38, 133);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.icon1{
+  width: 20px;
+}
+.location{
+  display: flex;
+  align-items: center;
+}

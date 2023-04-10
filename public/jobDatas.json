@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "Ava",
+    "title": "Front-end Developer",
+    "url": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
+    "remote": "Full Time",
+    "onsite": "Remote",
+    "locations":"New York",
+    "salary": "$80,000 - $100,000",
+    "job_Description": "We are seeking a skilled front-end developer to join our team and help us build responsive and user-friendly web applications.",
+    "job_responsibility": "Responsibilities include developing and maintaining web applications using modern JavaScript frameworks, collaborating with designers to implement UI/UX designs, and writing clean and efficient code.",
+    "educational_requirments": "Bachelor’s degree in Computer Science or a related field",
+    "experience": "3+ years of experience as a front-end developer",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "ava@example.com",
+      "address": "123 Main Street, Suite 200, New York, NY 10001"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ethan",
+    "title": "Full-stack Developer",
+    "url": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=996&t=st=1681157057~exp=1681157657~hmac=62914f95a40d74660b6c9cfbd846b98b769395b5dc7ebcbb74085036ada84911",
+    "remote": "Half Time",
+    "onsite": "Onsite",
+    "locations":"Austin",
+    "salary": "$90,000 - $120,000",
+    "job_Description": "We are seeking a full-stack developer to help us build and maintain our web applications.",
+    "job_responsibility": "Responsibilities include developing new features and functionality, troubleshooting issues, and collaborating with designers and other developers to ensure high-quality code.",
+    "educational_requirments": "Bachelor’s degree in Computer Science or a related field",
+    "experience": "5+ years of experience as a full-stack developer",
+    "contact_info": {
+      "phone": "555-234-5678",
+      "email": "ethan@example.com",
+      "address": "456 Elm Street, Suite 300, Chicago, IL 60601"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Isabella",
+    "title": "UX Designer",
+    "url": "https://burst.shopifycdn.com/photos/laptops-at-workstations-coding.jpg?width=925&format=pjpg&exif=1&iptc=1",
+    "remote": "Full Time",
+    "onsite": "Remote",
+    "locations":"Seattle",
+    "salary": "$70,000 - $90,000",
+    "job_Description": "We are seeking a talented UX designer to help us create engaging and intuitive user experiences for our web applications.",
+    "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
+    "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
+    "experience": "3+ years of experience as a UX designer",
+    "contact_info": {
+      "phone": "555-345-6789",
+      "email": "isabella@example.com",
+      "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Liam",
+    "title": "Back-end Developer",
+    "url": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+    "remote": "Full Time",
+    "onsite": "Remote",
+    "locations":"Portland",
+    "salary": "$80,000 - $100,000",
+    "job_Description": "We are seeking a talented UX designer to help us create engaging and intuitive user experiences for our web applications.",
+    "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
+    "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
+    "experience": "3+ years of experience as a UX designer",
+    "contact_info": {
+      "phone": "555-345-6789",
+      "email": "isabella@example.com",
+      "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Liam",
+    "title": "Developer",
+    "url": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=996&t=st=1681157057~exp=1681157657~hmac=62914f95a40d74660b6c9cfbd846b98b769395b5dc7ebcbb74085036ada84911",
+    "remote": "Full Time",
+    "onsite": "Remote",
+    "locations":"Portland",
+    "salary": "$80,000 - $100,000",
+    "job_Description": "We are seeking a talented UX designer to help us create engaging and intuitive user experiences for our web applications.",
+    "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
+    "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
+    "experience": "3+ years of experience as a UX designer",
+    "contact_info": {
+      "phone": "555-345-6789",
+      "email": "isabella@example.com",
+      "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Alibaba",
+    "title": "Apps Developer",
+    "url": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
+    "remote": "Full Time",
+    "onsite": "Onsite",
+    "locations":"Portland",
+    "salary": "$80,000 - $100,000",
+    "job_Description": "We are seeking a talented UX designer to help us create engaging and intuitive user experiences for our web applications.",
+    "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
+    "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
+    "experience": "3+ years of experience as a UX designer",
+    "contact_info": {
+      "phone": "555-345-6789",
+      "email": "isabella@example.com",
+      "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
+    }
+  }
+]
+   
