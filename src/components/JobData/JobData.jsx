@@ -1,9 +1,8 @@
 import React from 'react';
 import './JobData.css'
-import { BeakerIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon } from '@heroicons/react/24/solid'
 
-const JobData = ({jobdata}) => {
-  console.log(jobdata)
+const JobData = ({jobdata, handleAddToCart}) => {
   const {name, title, locations,remote,onsite,salary,url,} = jobdata;
   return (
     <div className='card col p-4 gap-3'>
@@ -13,10 +12,10 @@ const JobData = ({jobdata}) => {
         <p><span className='remote me-4'>{remote}</span><span className='remote'>{onsite}</span></p>
         <div>
           <div className="location">
-          <BeakerIcon className="icon1"/> <span className='location me-3'>{locations}</span> 
+          <MapPinIcon className="icon1"/> <span className='location me-3'>{locations}</span> 
           <span>{salary}</span>
           </div>
-          <button className='button mt-3'>View Details</button>
+          <button onClick={() => handleAddToCart(jobdata)} className='button mt-3'>View Details</button>
         </div>
     </div>
   );

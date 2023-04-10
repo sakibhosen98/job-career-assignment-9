@@ -12,11 +12,10 @@
     "job_responsibility": "Responsibilities include developing and maintaining web applications using modern JavaScript frameworks, collaborating with designers to implement UI/UX designs, and writing clean and efficient code.",
     "educational_requirments": "Bachelor’s degree in Computer Science or a related field",
     "experience": "3+ years of experience as a front-end developer",
-    "contact_info": {
       "phone": "555-123-4567",
       "email": "ava@example.com",
       "address": "123 Main Street, Suite 200, New York, NY 10001"
-    }
+    
   },
   {
     "id": 2,
@@ -31,11 +30,10 @@
     "job_responsibility": "Responsibilities include developing new features and functionality, troubleshooting issues, and collaborating with designers and other developers to ensure high-quality code.",
     "educational_requirments": "Bachelor’s degree in Computer Science or a related field",
     "experience": "5+ years of experience as a full-stack developer",
-    "contact_info": {
       "phone": "555-234-5678",
       "email": "ethan@example.com",
       "address": "456 Elm Street, Suite 300, Chicago, IL 60601"
-    }
+    
   },
   {
     "id": 3,
@@ -50,11 +48,10 @@
     "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
     "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
     "experience": "3+ years of experience as a UX designer",
-    "contact_info": {
       "phone": "555-345-6789",
       "email": "isabella@example.com",
       "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
-    }
+    
   },
   {
     "id": 4,
@@ -69,11 +66,10 @@
     "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
     "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
     "experience": "3+ years of experience as a UX designer",
-    "contact_info": {
       "phone": "555-345-6789",
       "email": "isabella@example.com",
       "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
-    }
+    
   },
   {
     "id": 5,
@@ -88,11 +84,10 @@
     "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
     "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
     "experience": "3+ years of experience as a UX designer",
-    "contact_info": {
       "phone": "555-345-6789",
       "email": "isabella@example.com",
       "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
-    }
+    
   },
   {
     "id": 6,
@@ -107,11 +102,10 @@
     "job_responsibility": "Responsibilities include conducting user research, creating wireframes and prototypes, and working closely with developers to ensure designs are implemented accurately.",
     "educational_requirments": "Bachelor’s degree in Design, Human-Computer Interaction, or a related field",
     "experience": "3+ years of experience as a UX designer",
-    "contact_info": {
       "phone": "555-345-6789",
       "email": "isabella@example.com",
       "address": "789 Oak Street, Suite 400, Seattle, WA 98101"
-    }
+    
   }
 ]
    

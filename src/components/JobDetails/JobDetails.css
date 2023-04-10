@@ -1,0 +1,11 @@
+.job-details{
+  background-color:rgb(212, 208, 208);
+  padding: 10px;
+  border-radius: 5px;
+}
+.apply-btn{
+  background-color: rgb(87, 87, 209);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
