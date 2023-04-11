@@ -14,6 +14,7 @@ import Blog from './components/Blog/Blog';
 import AppliedJob from './components/AppliedJobs/AppliedJob';
 import JobData from './components/JobData/JobData';
 import JobDetails from './components/JobDetails/JobDetails';
+import NotFound from './components/NotFound/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -40,10 +41,14 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '*',
+        element: <NotFound></NotFound>
       }
     ]
-  },
-]);
+  }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
