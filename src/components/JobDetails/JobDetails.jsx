@@ -15,7 +15,7 @@ const JobDetails = () => {
   }, []);
 
   const jobDetail = details.find((detail) => detail.id === jobId.id);
-  console.log(jobDetail);
+  // console.log(jobDetail);
 
   return (
     <>

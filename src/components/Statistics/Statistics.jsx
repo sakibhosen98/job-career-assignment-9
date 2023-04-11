@@ -1,16 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  BarChart,
-  Bar,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-  LineChart,
-} from "recharts";
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
   // const [marksArray, setMarksArray] = useState();
@@ -58,16 +47,16 @@ const Statistics = () => {
   return (
     <div className="mt-5">
       <h3 className="text-center fw-bold mb-5">This is my assignment marks information chart.</h3>
-      <BarChart
+      <AreaChart
        width={1000}
        height={300}
        data={assignmentMarks}
       >
-       <Bar dataKey="number" fill="#8884d8"></Bar>
+       <Area dataKey="number" stroke="#8884d8"></Area>
        <XAxis dataKey="name" />
        <YAxis />
        <Tooltip />
-      </BarChart>
+      </AreaChart>
     </div>
   );
 };

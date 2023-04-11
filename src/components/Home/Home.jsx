@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import Section from '../Section/Section';
 import { useLoaderData } from 'react-router-dom';
