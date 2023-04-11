@@ -1,43 +1,55 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './JobDetails.css'
 import { MapPinIcon, PhoneIcon,EnvelopeIcon  } from '@heroicons/react/24/solid'
+import { useLoaderData, useParams } from 'react-router-dom';
 
 
-const JobDetails = ({cart}) => {
-  console.log(cart.contact_info)
-  const {job_Description,job_responsibility,educational_requirments,experience,salary,title,phone,email,address} = cart;
+const JobDetails = () => {
+
+ const jobId = useParams();
+ const [details, setDetails] = useState([]);
+ useEffect( () => {
+    fetch('jobDatas.json')
+    .then(res => res.json())
+    .then(data => setDetails(data))
+ },[]);
+
+ const jobDetail = details.find(detail => detail.id === jobId.id);
+ console.log(jobDetail)
   return (
     <>
+
+      <h3 className='text-center mt-5'>Job Details</h3>
       <div className='row row-cols-1 row-cols-md-2 g-4 mt-4'>
           <div>
-              <p><span className='fw-bold'>Job Description:</span> {job_Description}</p>
-              <p><span className='fw-bold'>Job Responsibility:  </span>{job_responsibility}</p>
+              <p><span className='fw-bold'>Job Description:{jobDetail && jobDetail.descriptions}</span> </p>
+              <p><span className='fw-bold'>Job Responsibility:  </span></p>
               <p className='fw-bold'>Educational Requirements: </p>
-              <p>{educational_requirments}</p>
+              <p></p>
               <p className='fw-bold'>Experiences: </p>
-              <p>{experience}</p>
+              <p></p>
           </div>
           <div className='job-details'>
               <h5>Job Details</h5>
               <hr/>
-              <p><span className='fw-bold'>Salary: </span>{salary}</p>
+              <p><span className='fw-bold'>Salary: </span></p>
               <div className='location'>
               <MapPinIcon className="icon1"/>
-              <p><span>Job Title: </span>{title}</p>
+              <p><span>Job Title: </span></p>
               </div>
               <h5>contact Information</h5>
               <hr/>
               <div className='location'>
               <PhoneIcon className="icon1"/>
-              <p><span>Phone: </span>{phone}</p>
+              <p><span>Phone: </span></p>
               </div>
               <div className='location'>
               <EnvelopeIcon className="icon1"/>
-              <p><span>Email: </span>{email}</p>
+              <p><span>Email: </span></p>
               </div>
               <div className='location'>
               <MapPinIcon className="icon1"/>
-              <p><span>Address: </span>{address}</p>
+              <p><span>Address: </span></p>
               </div>
               <button className='w-100 apply-btn'>Apply Now</button>
           </div>

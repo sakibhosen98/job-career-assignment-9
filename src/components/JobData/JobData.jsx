@@ -1,9 +1,10 @@
 import React from 'react';
 import './JobData.css'
 import { MapPinIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
-const JobData = ({jobdata, handleAddToCart}) => {
-  const {name, title, locations,remote,onsite,salary,url,} = jobdata;
+const JobData = ({jobdata}) => {
+  const {name, title, locations,remote,onsite,salary,url,id} = jobdata;
   return (
     <div className='card col p-4 gap-3'>
         <img className='img' src={url} alt="" />
@@ -15,7 +16,7 @@ const JobData = ({jobdata, handleAddToCart}) => {
           <MapPinIcon className="icon1"/> <span className='location me-3'>{locations}</span> 
           <span>{salary}</span>
           </div>
-          <button onClick={() => handleAddToCart(jobdata)} className='button mt-3'>View Details</button>
+          <Link className='button mt-3' to={`/${id}`}>View Details</Link>
         </div>
     </div>
   );
