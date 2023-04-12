@@ -24,14 +24,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('features.json')
+        loader: () => fetch('/features.json')
       },
       {
         path: 'statistics',
         element: <Statistics></Statistics>
       },
       {
-        path: '/:id',
+        path: 'job/:id',
         element: <JobDetails></JobDetails>,
       },
       {
@@ -48,6 +48,8 @@ const router = createBrowserRouter([
       }
     ]
   }
+  
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

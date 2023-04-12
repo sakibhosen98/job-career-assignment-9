@@ -9,12 +9,15 @@ const JobDetails = () => {
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
-    fetch("features.json")
+    fetch("/features.json")
       .then(res => res.json())
-      .then(data => setDetails(data));
+      .then(data => setDetails(data.find((detail) => detail.id === jobId.id)));
   }, []);
+  // useEffect(() => {
+  //   const jobDetail = details.find((detail) => detail.id === jobId.id);
+    
+  // }, []);
 
-  const jobDetail = details.find((detail) => detail.id === jobId.id);
   // console.log(jobDetail);
 
   return (
@@ -25,14 +28,14 @@ const JobDetails = () => {
           <p>
             <span className="fw-bold">
               Job Description: 
-            </span> {jobDetail && jobDetail.job_Description}
+            </span> {details && details.job_Description}
           </p>
           <p>
-            <span className="fw-bold">Job Responsibility: </span> {jobDetail && jobDetail.job_responsibility}
+            <span className="fw-bold">Job Responsibility: </span> {details && details.job_responsibility}
           </p>
-          <p><span className="fw-bold">Educational Requirements: </span> {jobDetail && jobDetail.educational_requirments
+          <p><span className="fw-bold">Educational Requirements: </span> {details && details.educational_requirments
 }</p>
-          <p><span className="fw-bold">Experiences: </span> {jobDetail && jobDetail.experience
+          <p><span className="fw-bold">Experiences: </span> {details && details.experience
 }</p>
           <p></p>
         </div>
@@ -40,12 +43,12 @@ const JobDetails = () => {
           <h5>Job Details</h5>
           <hr />
           <p>
-            <span className="fw-bold">Salary: {jobDetail && jobDetail.salary} </span>
+            <span className="fw-bold">Salary: {details && details.salary} </span>
           </p>
           <div className="location">
             <MapPinIcon className="icon1" />
             <p>
-              <span>Job Title: {jobDetail && jobDetail.title} </span>
+              <span>Job Title: {details && details.title} </span>
             </p>
           </div>
           <h5>contact Information</h5>
@@ -53,19 +56,19 @@ const JobDetails = () => {
           <div className="location">
             <PhoneIcon className="icon1" />
             <p>
-              <span>Phone: {jobDetail && jobDetail.phone} </span>
+              <span>Phone: {details && details.phone} </span>
             </p>
           </div>
           <div className="location">
             <EnvelopeIcon className="icon1" />
             <p>
-              <span>Email: {jobDetail && jobDetail.email} </span>
+              <span>Email: {details && details.email} </span>
             </p>
           </div>
           <div className="location">
             <MapPinIcon className="icon1" />
             <p>
-              <span>Address: {jobDetail && jobDetail.address} </span>
+              <span>Address: {details && details.address} </span>
             </p>
           </div>
           <button className="w-100 apply-btn">Apply Now</button>

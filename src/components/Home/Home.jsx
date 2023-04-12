@@ -15,11 +15,12 @@ const Jobs = useLoaderData();
       
       <section className='row row-cols-1 row-cols-md-2 g-4 mt-4'>
           {
-            Jobs.map(job => <JobData
+            Jobs?.map(job => <JobData
             key={job.id}
             job={job}
             ></JobData>)
           }
+
       </section>
     </div>
   );

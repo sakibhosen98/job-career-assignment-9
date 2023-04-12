@@ -16,7 +16,7 @@ const JobData = ({job}) => {
           <MapPinIcon className="icon1"/> <span className='location me-3'>{locations}</span> 
           <span>{salary}</span>
           </div>
-          <Link className='button' to={`/${id}`}>View Details</Link>
+          <Link className='button' to={`/job/${id}`}>View Details</Link>
         </div>
     </div>
   );
